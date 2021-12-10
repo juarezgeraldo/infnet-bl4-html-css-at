@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!--[if lt IE 9]>
+    <script src="https://cdn.es.gov.br/scripts/extensions/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <![endif]-->
+    <meta name="author" content="Juarez Silva Junior">
+    <meta name="description" content="Site do Kombi Coffee">
+    <meta name="keywords" content="moda, roupas">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <link href="reset.css" rel="stylesheet" type="text/css" />
+    <link href="estilos.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <title>GK Fashion</title>
+</head>
+
+<body>
+    <h1 id="gkFashion"><a href="index.html">GK Fashion</a></h1>
+    <div>
+        <header class="cabec">
+            <figure class="logotipo">
+                <h1>
+                    <img src="imagens/logo_GK.png" alt="Logotipo GK Fashion" title="Logotipo GK Fashion">
+                </h1>
+            </figure>
+            <p id="sacola">Nenhum item na sacola de compras</p>
+            <nav class="menu-h">
+                <ul>
+                    <li><a href="index.html" title="Menu conta">Sua Conta</a></li>
+                    <li><a href="#" title="Menu desejo">Lista de Desejos</a></li>
+                    <li><a href="fidelidade.html" title="Menu fidelidade">Cartão Fidelidade</a></li>
+                    <li><a href="sobre.html" title="Menu sobre">Sobre</a></li>
+                    <li><a href="contato.html" title="Menu contato">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="contato">
+                <h2>Entre em contato</h2>
+                <p>
+                    Sendo necessário, entre em contato conosco
+                </p>
+                <form>
+                    <label for="nome">Nome:</label><br>
+                    <input class="input_nome" required type="text" id="nome" name="nome" 
+                        pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{3,40}$"><br>
+
+                    <label for="email">E-mail:</label><br>
+                    <input class="input_email" required type="email" id="email" name="email" 
+                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"><br>
+
+                    <label for="motivo">Motivo:</label><br>
+                    <select name="motivo" id="motivo">
+                        <option value="sugestao">Sugestão</option>
+                        <option value="critica">Crítica</option>
+                        <option value="elogio">Elogio</option>
+                        <option value="outro">Outros</option>
+                      </select><br><br>
+
+                    <label for="comentarios">Comentários</label><br>
+                    <textarea rows="5" required class="input_comentarios" id="comentarios"
+                        name="comentarios"></textarea><br>
+
+                    <button title="Botão enviar">Enviar</button>
+
+                </form>
+            </section>
+        </main>
+        <footer>
+            <div class="caixa-footer">
+                <img src="imagens/logo_rodape.png" alt="Imagem do galpão que é o centro de distribuição da GK Fashion"
+                    title="Imagem do galpão que é o centro de distribuição da GK Fashion">
+                &copy; Copyright GK Fashion
+                <ul class="social">
+                    <li><a class="facebook" href="http://www.facebook.com/gkfashion" title="Facebook">Facebook</a>
+                    </li>
+                    <li><a class="google" href="http://plus.google.com/gkfashion" title="Google+">Google+</a></li>
+                    <li><a class="twitter" href="http://www.twitter.com/gkfashion" title="Twitter">Twitter</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>

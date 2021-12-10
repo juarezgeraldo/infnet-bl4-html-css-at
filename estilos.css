@@ -1,0 +1,336 @@
+figure{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    padding: 15px;
+}
+figure#imgCentroDistribuicao{
+    background-color: #adadad7a;
+    border: 1px solid rgba(49, 49, 49, 0.459);
+    width: 550px;
+    text-align: center;
+}
+figure#imgFamiliaTeles{
+    margin: 10px;
+    margin-top: 45px;
+    float: right;
+    padding: 10px;
+}
+figcaption{
+    margin-top: 10px;
+    text-align: center;
+    font-style: italic;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 129, 39);
+}
+a:hover{
+    text-decoration: underline;
+}
+
+p{
+    margin-top: 15px;
+    padding: 15px 45px 0px 45px;
+    font-size: 1.5em;
+    text-align: justify;
+}
+.listaDiferencial{
+    list-style-type: disc;
+    margin-top: 15px;
+    margin-right: 60px;
+    padding: 15px 60px 60px 60px;
+    font-size: 1.5em;
+}
+
+footer{
+    color: #ccc;
+    padding: 0 30px 0 30px;
+    background-image: url(imagens/fundo-rodape.png);
+    clear: both;
+    text-align: center;
+    position: relative;
+}
+.caixa-footer{
+    display: flex;
+    position: relative;
+    padding: 20px;
+}
+.caixa-footer img{
+    margin-right: 30px;
+    vertical-align: middle;
+    width: 94px;
+}
+.social{
+    position: absolute;
+    top: 12px;
+    right: 0;
+}
+.social a{
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    text-indent: -9999px;
+}
+.social li{
+    display: inline;
+    float: left;
+    margin-left: 25px;
+}  
+.social a[href*="facebook.com"]{
+    background-image: url('imagens/sociais.png');
+}
+.social a[href*="twitter.com"] {
+    background-image: url('imagens/sociais.png');
+}
+
+.social a[href*="plus.google.com"] {
+    background-image: url('imagens/sociais.png');
+}
+
+h1{
+    text-align: left;
+}
+h1 .cabec{
+    display: flex;
+} 
+
+#sacola{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    background: url(imagens/sacola.png) no-repeat top right;
+    font-size: 1.0em;
+    padding-top: 8px;
+    padding-right: 35px;
+    text-align: right;
+    width: 140px;
+    margin-top: 15px;
+}
+#gkFashion{
+    visibility: hidden;
+}
+h2{
+    border-bottom: 2px solid black;
+    margin-top: 30px;
+    font-size: 1.2em;
+}
+
+.menu-h{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.menu-h ul{
+    font-size: 1.0em;
+    font-weight: 600;
+}
+.menu-h a{
+    text-decoration: none;
+    color: rgb(0, 129, 39);
+}
+.menu-h a:hover{
+    text-decoration: underline;
+}
+
+.menu-h ul li{
+    display: inline;
+    margin-left: 20px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 940px;
+}
+
+header{
+    position: relative;
+}
+header h1{
+    text-align: left;
+}
+header h1 img{
+    max-width: 50%;
+}
+body {
+    background-image: url(imagens/background.png);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.0em;
+    padding: 0.8em;
+}
+.logotipo {
+    background-image: url(imagens/background.png);
+    position: relative;
+    top: 0;
+    left: 0;
+    border: none;
+}
+
+/* CSS para index */
+.busca, 
+.menu-departamentos{
+    background-color: #dcdcdc;
+    float: left;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin: 15px 10px 10px 10px; 
+    width: 200px;
+}
+.menu-departamentos{
+    clear: left;
+}
+.titulo-busca, 
+.titulo-departamentos{
+    margin: 10px;
+    border-bottom: none;
+}
+.busca{
+    border-top-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.busca h2,
+.busca form,
+.menu-departamentos h2 {
+    margin: 10px;
+}
+.busca input{
+    vertical-align: middle;
+}
+.busca input[type=search]{
+    width: 170px;
+}
+#campo-busca{
+    border-radius: 10px;
+}
+.menu-dep li{
+    background-color: rgba(255, 255, 255, 0.616);
+    margin-bottom: 1px;
+    padding: 5px 10px;
+}
+.menu-dep a{
+    color: gray;
+    text-decoration: none;
+}
+.menu-dep li ul{
+    display: none;
+}
+.menu-dep li:hover ul{
+    display: block
+}
+.menu-dep ul ul li{
+    background-color: #dcdcdc;
+}
+.menu-dep li li a:before {
+    content: '\272A';
+    padding-right: 3px;
+}
+.painel{
+    margin: 10px 0;
+    padding: 10px;
+    width: 445px;
+}
+.novidades{
+    float: left;
+}
+.mais-vendidos{
+    float: right;
+}
+.painel li{
+    display: inline-block;
+    vertical-align: top;
+    width: 140px;
+    margin: 2px;
+    padding-bottom: 10px;
+}
+.painel h2{
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.painel h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.painel a {
+    color: #333;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+.novidades {
+    background-color: #f5dcdc;
+}
+.mais-vendidos {
+    background-color: #dcdcf5;
+}
+
+/* CSS para contato */
+
+input{
+    border:1px solid #ccc;
+    font-size: 1em;
+    font-weight: 400;
+    margin-bottom:15px;
+    margin-top:5px;
+}
+textarea{
+    border:1px solid #ccc;
+    font-size: 1em;
+    font-weight: 400;
+    margin-bottom:15px;
+    margin-top:5px;
+}
+
+.input_nome{
+    width: 400px;
+}
+.input_email{
+    width: 500px;
+}
+.input_comentarios{
+    width: 600px;
+}
+
+label{
+    font-size: 1em;
+}
+
+button{
+    font-size: 1em;
+    /* color: #ccc; */
+    font-weight: 600;
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 45px;
+}
+form{
+    padding: 15px 45px 0px 45px;
+
+}
+.tabela-fidelidade {
+    font-size: 1.4em;
+    font-weight: 600;
+    padding-top: 0.8em;
+    padding-bottom: 1.0em;
+    text-align: center;
+    
+}
+.titulo_tabela{
+    font-size: 1.2em;
+    font-weight: 600;
+    padding-top: 1.8em;
+    padding-bottom: 0.4em;
+    text-align: center;
+}
+.celula_titulo {
+    vertical-align: middle;
+    text-align: left;
+}
+
+.rodape_tabela{
+    text-align: center;
+}
+
